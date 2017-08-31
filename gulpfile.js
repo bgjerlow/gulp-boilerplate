@@ -79,7 +79,7 @@ gulp.task('compass', function() {
 });
 
 
-// Watch for changes to JS, Sass, and HTML files
+// Watch for changes to CoffeeScript, JS, Sass, HTML, and JSON files.
 gulp.task('watch', function() {
     gulp.watch(coffeeSources, ['coffee']);
     gulp.watch(jsSources, ['js']);
